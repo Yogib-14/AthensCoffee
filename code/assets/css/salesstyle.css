@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&family=Roboto:wght@300;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav a {
+	text-decoration: none !important;
+}
+nav li:hover a {
+	color: white;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Nova Round', cursive;
+	/* color: #fff; */
+}
+
+.wrap{
+	background: rgba(0,0,0,0.5) url(assets/img/background.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	overflow: hidden;
+	background-blend-mode: overlay;
+}
+
+
+
+.content{
+	/* max-width: 55%; */
+	padding: 120px 80px 0;
+	color: #fff;
+}
+
+.content h1{
+    color: black;
+	font-size: 48px;
+}
+
+.content p{
+	font-size: 20px;
+	padding: 25px 0;
+	font-weight: 300;
+}
+
+.content .btn-group{
+	margin-top: 45px;
+}
+
+.content a{
+	display: inline-block;
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #000;
+    text-decoration: none !important;
+	border-radius: 50px;
+}
+
+
+.content a.color1{
+	background-color: #ffc107;
+}
